@@ -1,0 +1,29 @@
+/*LIST*/
+.articles-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.articles-list {
+    width: 100%;
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .articles-list-container {
+        flex-direction: column;
+    }
+
+    .articles-list {
+        width: 100%;
+        padding: 0;
+    }
+
+    img {
+        width: 150px;
+    }
+}

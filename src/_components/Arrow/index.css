@@ -1,0 +1,25 @@
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+
+    border-bottom: 7px solid darkgrey;
+}
+
+.arrow-up.active {
+    border-bottom: 7px solid black;
+}
+
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid darkgrey;
+}
+
+.arrow-down.active {
+    border-top: 7px solid black;
+}
