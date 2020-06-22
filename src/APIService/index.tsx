@@ -1,6 +1,6 @@
 import APIResponse from '../_types/APIResponse';
 
-const API_URL = 'http://newsapi.org/v2/top-headlines?country=us';
+const API_URL = 'https://newsapi.org/v2/top-headlines?country=us';
 const API_KEY = process.env.REACT_APP_API_KEY;
 
 const fetchArticles = async (category: string): Promise<APIResponse> => {
