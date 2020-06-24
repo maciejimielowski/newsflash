@@ -2,7 +2,7 @@ import React, { useEffect, ReactElement } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import './index.css';
 import { Loader } from 'semantic-ui-react';
-import { getArticles } from '../../../redux/actions/actions';
+import { getArticles } from '../../../redux/actions/actions'; // in future to shorten imports use index.ts and 'export * from ...' in it
 import RootStore from '../../../_types/RootStore';
 import ArticlesList from './ArticlesList';
 

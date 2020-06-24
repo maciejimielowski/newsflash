@@ -17,4 +17,4 @@ const ArticleHelper = {
   content: (article: Article): string => get(article, 'content'),
 };
 
-export default ArticleHelper;
+export default ArticleHelper; // it should rather be TS (no render, and in future it'll be easier to find something), same as _types, APIService and others

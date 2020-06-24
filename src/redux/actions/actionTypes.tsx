@@ -1,4 +1,4 @@
-import APIResponse from '../../_types/APIResponse';
+import APIResponse from '../../_types/APIResponse'; // destructured imports are more scalable and might be a better practice - TS will know what is exported and adding others exports in future does not require refactor
 
 export const REQUEST_ARTICLES = 'REQUEST_ARTICLES';
 export interface RequestArticlesAction {

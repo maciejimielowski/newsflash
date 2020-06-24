@@ -2,7 +2,7 @@ import { ArticlesActionTypes } from '../actions/actionTypes';
 import Article from '../../_types/ArticleInterface';
 import ArticlesStore from '../../_types/ArticlesStore';
 
-const initialState = {
+const initialState = { // initial state should be typed by ArticlesStore type - then you'll never forget to initalize some property and prevent app crash
   isFetching: false,
   sort: {
     sortBy: 'date',
