@@ -1,7 +1,7 @@
 import React, { ReactElement, useState } from 'react';
 import { Button } from 'semantic-ui-react';
 import './index.css';
-import Article from '../../../../../_types/ArticleInterface';
+import Article from '../../../../../_types/ArticleInterface'; // definitely defining tsconfig.compilerOptions.baseUrl and shortening imports will help, then you'll have: import Article from '_types/ArticleInterface'
 import ArticleHelper from '../../../../../_helpers/entries/ArticleHelper';
 
 type ArticleListItemProps = {
